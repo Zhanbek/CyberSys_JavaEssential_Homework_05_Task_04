@@ -19,6 +19,7 @@ public class Main {
     public static void main(String[] args) {
         List<Integer> myList = new ArrayList<>();
         fillList(myList);
+        System.out.println();
         System.out.println("Наш список містить наступні елементи:");
         System.out.println("--------------------------------");
         outputElements(myList);
